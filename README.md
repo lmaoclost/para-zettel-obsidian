@@ -6,11 +6,11 @@ This vault template relies on a small, opinionated set of Obsidian extensions. T
 
 All extensions are automatically enabled when the vault is opened and trusted.
 
-- **0.1 Dataview**: Treat notes as structured data
-- **0.2 Templater**: For file templates
-- **0.3 Kindle Highlights (Kindle Plugin)**: Import reading highlights from Kindle into Obsidian
-- **0.4 Obsidian Git**: Version control and backup
-- **0.5 Better Word Count**: Measure writing volume accurately
+- **Dataview**: Treat notes as structured data.
+- **Templater**: For file templates.
+- **Kindle Highlights (Kindle Plugin)**: Import reading highlights from Kindle into Obsidian.
+- **Obsidian Git**: Version control and backup.
+- **Better Word Count**: Measure writing volume accurately.
 
 ## 1. PARA Method (Tiago Forte)
 
