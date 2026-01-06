@@ -1,5 +1,17 @@
 # Documentation: Integrating PARA and Zettelkasten in Obsidian
 
+## 0. Obsidian Extensions Used (and Why)
+
+This vault template relies on a small, opinionated set of Obsidian extensions. The goal is leverage, not excess: each plugin exists to support PARA, Zettelkasten, or long-term knowledge work.
+
+All extensions are automatically enabled when the vault is opened and trusted.
+
+**0.1 Dataview**: Treat notes as structured data
+**0.2 Templater**: For file templates
+**0.3 Kindle Highlights (Kindle Plugin)**: Import reading highlights from Kindle into Obsidian
+**0.4 Obsidian Git**: Version control and backup
+**0.5 Better Word Count**: Measure writing volume accurately
+
 ## 1. PARA Method (Tiago Forte)
 
 The PARA method (Projects, Areas, Resources, Archive) is an information organization system based on actionability and relevance:

@@ -1,5 +1,17 @@
 # Documentação: Integrando PARA e Zettelkasten no Obsidian
 
+## 0. Extensões do Obsidian Utilizadas (e Por Quê)
+
+Este modelo de vault depende de um pequeno conjunto de extensões do Obsidian, com opiniões bem definidas. O objetivo é otimizar, não exagerar: cada plugin existe para dar suporte a PARA, Zettelkasten ou trabalho de conhecimento a longo prazo.
+
+Todas as extensões são ativadas automaticamente quando o vault é aberto e considerado confiável.
+
+**0.1 Dataview**: Trata as notas como dados estruturados
+**0.2 Templater**: Para templates de arquivos
+**0.3 Kindle Highlights (Plugin do Kindle)**: Importa destaques de leitura do Kindle para o Obsidian
+**0.4 Obsidian Git**: Controle de versão e backup
+**0.5 Better Word Count**: Mede o volume de escrita com precisão
+
 ## 1. Método PARA (Tiago Forte)
 
 O método PARA (Projetos, Áreas, Recursos, Arquivo) é um sistema de organização de informações baseado em acionabilidade e relevância:
