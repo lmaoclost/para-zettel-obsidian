@@ -123,7 +123,6 @@ A note can (and often should) appear in **multiple MOCs**.
 ## 4. Folder Structure Example
 
 ```
-
 Obsidian Vault/
 ├── 0. Inbox/
 ├── 1. Projects/
@@ -133,10 +132,9 @@ Obsidian Vault/
 │   ├── Finances/
 │   └── Music/
 ├── 4. Archive/
-├── Zettelkasten/
 ├── MOCs/
-└── Templates/
-
+├── Templates/
+└── Zettelkasten/
 ````
 
 ---
@@ -218,10 +216,14 @@ Courses are **temporary scaffolding**, not permanent structure.
 
 ### Recommended setup
 
-* Course materials → `Resources`
-* Processed ideas → `Zettelkasten`
-* Course structure → `MOC: Course Name`
-* Area references the course MOC
+- Course materials → `Resources`
+    
+- Processed ideas → `Zettelkasten`
+    
+- Course structure → `MOC: Course Name`
+    
+- Area references the course MOC
+    
 
 ### Visual
 
@@ -242,40 +244,95 @@ Over time, **topic MOCs matter more than course MOCs**.
 Turn a resource into Zettelkasten notes when:
 
 1. It was processed
+    
 2. Written in your own words
+    
 3. One idea per note
+    
 4. Can connect to other ideas
+    
 5. Does not depend on the original context
+    
 
 ---
 
 ## 9. Example: Videos and Web Clippings
 
-* Unprocessed videos → `Inbox`
-* Processed videos → `Resources/<Topic>`
-* Ideas extracted → `Zettelkasten`
-* Navigation → MOCs
+- Unprocessed videos → `Inbox`
+    
+- Processed videos → `Resources/<Topic>`
+    
+- Ideas extracted → `Zettelkasten`
+    
+- Navigation → MOCs
+    
 
-**Resources are allowed to stay forever.
+**Resources are allowed to stay forever.  
 Zettelkasten is selective by design.**
 
 ---
 
 ## 10. Maintenance Rules
 
-* Finished projects → Archive
-* Old courses → Archive (Resources stay if useful)
-* Areas rarely archived
-* MOCs evolve continuously
+- Finished projects → Archive
+    
+- Old courses → Archive (Resources stay if useful)
+    
+- Areas rarely archived
+    
+- MOCs evolve continuously
+    
+
+---
+
+## 11. Operational Dashboard (My Tasks.md)
+
+This vault includes an optional global task dashboard located at the vault root:
+
+```
+My Tasks.md
+```
+
+This file is **not part of PARA, Zettelkasten, or MOCs**.
+
+Its purpose is to act as a **daily execution panel**, aggregating tasks from the entire vault using Dataview queries.
+
+### Key Principles
+
+- Tasks **live** inside Projects, Areas, and notes
+    
+- This file **does not store tasks manually**
+    
+- It only **displays tasks dynamically**
+    
+- It exists to reduce friction in daily planning
+    
+
+### Why it stays at the vault root
+
+Because it is **cross-functional**:
+
+- It does not belong to a single project
+    
+- It is not an Area (ongoing responsibility)
+    
+- It is not knowledge (Zettelkasten)
+    
+- It is not reference material (Resources)
+    
+
+It is simply a **control center for action**.
+
+Users may modify or remove this file if they prefer another task management system.
 
 ---
 
 ## Final Principle
 
-> **Projects end.
-> Areas persist.
-> Resources inform.
-> Zettelkasten thinks.
+> **Projects end.  
+> Areas persist.  
+> Resources inform.  
+> Zettelkasten thinks.  
 > MOCs connect.**
 
 If each part does only its job, the system stays clean for years.
@@ -283,5 +340,3 @@ If each part does only its job, the system stays clean for years.
 ---
 
 Happy thinking.
-
-```

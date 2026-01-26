@@ -145,9 +145,9 @@ Obsidian Vault/
 │   ├── Finances/
 │   └── Music/
 ├── 4. Archive/
-├── Zettelkasten/
 ├── MOCs/
-└── Templates/
+├── Templates/
+└── Zettelkasten/
 ```
 
 ---
@@ -278,6 +278,46 @@ O Zettelkasten é seletivo por natureza.**
 * Cursos antigos → Archive (os Resources ficam se ainda forem úteis)
 * Áreas raramente são arquivadas
 * MOCs evoluem continuamente
+
+---
+
+## 11. Painel Operacional (My Tasks.md)
+
+Este vault inclui um painel global opcional de tarefas localizado na raiz:
+
+`My Tasks.md`
+
+Este arquivo **não faz parte do PARA, Zettelkasten ou MOCs**.
+
+Seu objetivo é funcionar como um **painel de execução diária**, agregando tarefas de todo o vault por meio de consultas Dataview.
+
+### Princípios importantes
+
+- As tarefas **vivem** nos Projetos, Áreas e notas
+    
+- Este arquivo **não deve armazenar tarefas manualmente**
+    
+- Ele apenas **exibe tarefas dinamicamente**
+    
+- Existe para reduzir fricção no planejamento diário
+    
+
+### Por que ele fica na raiz do vault
+
+Porque ele é **transversal ao sistema**:
+
+- Não pertence a um projeto específico
+    
+- Não é uma responsabilidade contínua (Área)
+    
+- Não é conhecimento (Zettelkasten)
+    
+- Não é material de referência (Recursos)
+    
+
+Ele é simplesmente um **centro de controle para ação**.
+
+O usuário pode modificar ou remover este arquivo caso utilize outro sistema de gerenciamento de tarefas.
 
 ---
 
