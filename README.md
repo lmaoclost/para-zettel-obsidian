@@ -203,21 +203,22 @@ flowchart TD
 
 A[Start Course] --> B[Create Project Folder<br>1. Projects/Course Name]
 
-B --> C[Take Raw Notes Inside Project]
-C --> D[Extract Atomic Notes]
+B --> C[Create project file with tasks and due dates]
+C --> D[Take Raw Notes Inside Project]
+D --> E[Extract Atomic Notes]
 
-D --> E{Reusable?}
+E --> F{Reusable?}
 
-E -- Yes --> F[Move to 3. Resources/Topic/]
-E -- No --> G[Keep inside Project]
+F -- Yes --> G[Move to 3. Resources/Topic/]
+F -- No --> H[Keep inside Project]
 
-F --> H[Link inside MOCs]
-H --> I[Knowledge Becomes Permanent]
+G --> I[Link inside MOCs]
+I --> J[Knowledge Becomes Permanent]
 
-I --> J[Finish Course]
-G --> J
+J --> K[Finish Course]
+H --> K
 
-J --> K[Move Project to Archive]
+K --> L[Move Project to Archive]
 ```
 
 ### Practical Flow

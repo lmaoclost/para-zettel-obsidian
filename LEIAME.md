@@ -202,22 +202,23 @@ O conhecimento extraído dele pertence aos Recursos.
 flowchart TD
 
 A[Iniciar Curso] --> B[Criar Pasta do Projeto<br>1. Projects/Nome do Curso]
+B --> C[Criar arquivo do projeto com as tarefas e prazos]
 
-B --> C[Tomar Notas Brutas Dentro do Projeto]
-C --> D[Extrair Notas Atômicas]
+C --> D[Tomar Notas Brutas Dentro do Projeto]
+D --> E[Extrair Notas Atômicas]
 
-D --> E{Reutilizável?}
+E --> F{Reutilizável?}
 
-E -- Sim --> F[Mover para 3. Resources/Tópico/]
-E -- Não --> G[Manter dentro do Projeto]
+F -- Sim --> G[Mover para 3. Resources/Tópico/]
+F -- Não --> H[Manter dentro do Projeto]
 
-F --> H[Linkar em MOCs]
-H --> I[Conhecimento se Torna Permanente]
+G --> I[Linkar em MOCs]
+I --> J[Conhecimento se Torna Permanente]
 
-I --> J[Finalizar Curso]
-G --> J
+J --> K[Finalizar Curso]
+H --> K
 
-J --> K[Mover Projeto para Archive]
+K --> L[Mover Projeto para Archive]
 ```
 
 ### Fluxo Prático
