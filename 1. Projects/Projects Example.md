@@ -1,33 +1,13 @@
 ---
-Archive: false
 Status: Not started
-tags:
-  - Project
-Links: 
-Due: 
-Area:
+Due: 2026-05-10
 ---
-- **Quick Links**
-    - [[#Tasks]]
-    - [[#Notes]]
-
-> [!important] **Project Overview:**
-> 
-> ---
-> 
-> _Overview of the project goes here_
-
 ## ✅ Tasks
 
+- [ ] **Task 1** **📅** 2026-03-20
+- [ ] **Task 2** **📅** 2026-05-10
 
 ---
 
 ## Notes
 
-
----
-
-```dataview
-list
-from [[]] and #resources
-```

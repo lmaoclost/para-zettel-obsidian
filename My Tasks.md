@@ -1,4 +1,4 @@
-## 🔴 Tarefas Atrasadas
+## 🔴 Delayed tasks
 
 ```dataview 
 TASK FROM "/"
@@ -6,7 +6,7 @@ WHERE !completed AND contains(text, "📅") AND contains(text, "20") AND date(sp
 SORT date(split(split(text, "📅")[1], " ")[1]) ASC
 ```
 
-## 📌 Tarefas para Hoje
+## 📌 Today tasks
 
 ```dataview
 TASK FROM "/"
@@ -14,7 +14,7 @@ WHERE !completed AND contains(text, "📅") AND contains(text, "20") AND date(sp
 SORT text
 ```
 
-## 📅 Tarefas da Próxima Semana
+## 📅 Next week tasks
 
 ```dataview
 TASK
@@ -23,7 +23,7 @@ WHERE !completed AND contains(text, "📅") AND contains(text, "20") AND date(sp
 SORT date(split(split(text, "📅")[1], " ")[1]) ASC
 ```
 
-## 🗓️ Todas as Tarefas Futuras
+## 🗓️ All future tasks
 
 ```dataview
 TASK FROM "/" WHERE !completed AND contains(text, "📅") AND contains(text, "20") AND date(split(split(text, "📅")[1], " ")[1]) > date(today) 

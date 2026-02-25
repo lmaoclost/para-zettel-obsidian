@@ -1,22 +1,7 @@
 ---
-Archive: false
 Status: Not started
-tags:
-  - Project
-Links: 
-Due: 
-Area:
+Due:
 ---
-- **Quick Links**
-    - [[#Tasks]]
-    - [[#Notes]]
-
-> [!important] **Project Overview:**
-> 
-> ---
-> 
-> _Overview of the project goes here_
-
 ## ✅ Tasks
 
 
@@ -24,10 +9,3 @@ Area:
 
 ## Notes
 
-
----
-
-```dataview
-list
-from [[]] and #resources
-```

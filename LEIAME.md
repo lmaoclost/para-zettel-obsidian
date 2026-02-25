@@ -1,139 +1,68 @@
 # para-zettel-obsidian
 
-Um **template prático de vault para Obsidian** que combina o **método PARA** (Projects, Areas, Resources, Archive) com os princípios do **Zettelkasten** para gerenciar ações, responsabilidades, referências e conhecimento de longo prazo — **sem misturar os papéis de cada coisa**.
+[English version](https://github.com/lmaoclost/para-zettel-obsidian/blob/main/README.md)
 
-Este template foi pensado para ser:
+Um template prático de vault para Obsidian que combina PARA (Projetos, Áreas, Recursos, Arquivo) com o pensamento do Zettelkasten.
 
-* Simples de entender
-* Fácil de manter ao longo dos anos
-* Amigável para cursos, estudos e trabalho profissional
-* Alinhado com a intenção original do PARA e do Zettelkasten
+Este template é para quem quer separar execução de pensamento — sem fragmentar o próprio conhecimento.
 
----
-
-## O Que Este Template É (e o Que Ele Não É)
-
-**Isso não é apenas um cofre de notas.**
-É um **sistema de pensamento e ação**.
-
-* O **PARA** organiza a informação pelo **que você faz**
-* O **Zettelkasten** organiza a informação pelo **que você entende**
-* Os **MOCs** organizam a informação por **como as ideias se conectam**
-
-Cada parte tem **uma única responsabilidade**.
-Sem sobreposição.
+Não é um experimento de produtividade.  
+É um sistema de conhecimento e ação de longo prazo.
 
 ---
 
-## 0. Extensões do Obsidian Utilizadas
+## TL;DR
 
-Este vault utiliza um conjunto pequeno e opinativo de plugins. Cada um existe para dar suporte ao PARA, ao Zettelkasten ou ao trabalho de conhecimento de longo prazo.
+- **Projetos** = coisas com prazo
+- **Áreas** = responsabilidades contínuas
+- **Recursos** = conhecimento reutilizável
+- **Arquivo** = histórico concluído
+- O Zettelkasten vive dentro de **Recursos**
 
-Todas as extensões são ativadas automaticamente quando o vault é aberto e confiável.
-
-* **Dataview** – Trata notas como dados estruturados
-* **Templater** – Templates de arquivos e consistência
-* **Kindle Highlights** – Importa destaques do Kindle
-* **Obsidian Git** – Controle de versão e backups
-* **Better Word Count** – Métricas precisas de escrita
-
----
-
-## 1. Método PARA (Tiago Forte)
-
-O PARA organiza a informação pela **acionabilidade**, não por assunto.
-
-### Projects (Projetos)
-
-* Objetivo claro e data de término
-* Temporários
-
-**Exemplos**
-
-* Aprender uma música
-* Lançar um site
-* Concluir um curso
+Construa resultados em Projetos.  
+Extraia conhecimento para Recursos.  
+Arquive o restante.
 
 ---
 
-### Areas (Áreas)
+## Menu
 
-* Responsabilidades contínuas
-* Não têm data de fim
-
-**Exemplos**
-
-* Programação
-* Finanças
-* Música
-* Saúde
-
-> Áreas **não armazenam conteúdo**.
-> Elas funcionam como **painéis de controle**.
+- [Filosofia Central](#filosofia-central)
+- [A Estrutura](#a-estrutura)
+- [Projetos](#1-projetos)
+- [Áreas](#2-%C3%A1reas)
+- [Recursos](#3-recursos)
+- [MOCs](#mocs-maps-of-content)
+- [Fluxo de Curso](#fluxo-de-curso-usando-para--zettelkasten)
+- [Regras de Manutenção](#regras-de-manuten%C3%A7%C3%A3o)
 
 ---
 
-### Resources (Recursos)
+# Filosofia Central
 
-* Material de referência
-* Organizado por tema
-* Pode ser bruto ou não processado
+## O Sistema em Uma Frase
 
-**Exemplos**
+Projetos criam resultados.  
+Áreas mantêm responsabilidades.  
+Recursos constroem conhecimento.  
+Arquivo preserva histórico.
 
-* Vídeos
-* Artigos
-* PDFs
-* Anotações de cursos
+PARA é infraestrutura.  
+Zettelkasten é pensamento.
 
----
+PARA responde:
 
-### Archive (Arquivo)
+> Onde isso pertence?
 
-* Itens inativos
-* Mantidos para referência histórica
+Zettelkasten responde:
 
----
+> Como eu transformo isso em conhecimento reutilizável?
 
-## 2. Método Zettelkasten
-
-O Zettelkasten é onde o **conhecimento vive**, independente de projetos ou cursos.
-
-### Princípios Centrais
-
-* **Atomicidade** – Uma ideia por nota
-* **Conexões** – Notas formam uma rede
-* **Com suas próprias palavras** – Nada de pensar por cópia
-* **Independência de contexto** – A nota se sustenta sozinha
-
-### Tipos de Notas
-
-* Notas rápidas (fleeting notes)
-* Notas de literatura
-* Notas permanentes (o objetivo final)
+Eles resolvem problemas diferentes.
 
 ---
 
-## 3. MOCs (Maps of Content)
-
-MOCs são **camadas de navegação**, não locais de armazenamento.
-
-Eles respondem:
-
-> “O que eu sei sobre este assunto?”
-
-### Exemplos
-
-* `MOC: Programação`
-* `MOC: Git`
-* `MOC: Finanças`
-* `MOC: Curso.dev`
-
-Uma nota pode (e geralmente deve) aparecer em **vários MOCs**.
-
----
-
-## 4. Exemplo de Estrutura de Pastas
+# A Estrutura
 
 ```
 Obsidian Vault/
@@ -141,196 +70,208 @@ Obsidian Vault/
 ├── 1. Projects/
 ├── 2. Areas/
 ├── 3. Resources/
-│   ├── Programming/
-│   ├── Finances/
-│   └── Music/
 ├── 4. Archive/
-├── MOCs/
-├── Templates/
-└── Zettelkasten/
+└── Templates/
 ```
+
+Não existe uma pasta chamada “Zettelkasten”.
+
+O Zettelkasten é implementado dentro de Recursos.
 
 ---
 
-## 5. O Fluxo Central do Sistema
+# 0. Inbox
 
-### Fluxo em Alto Nível
+Capture primeiro.  
+Organize depois.
+
+Se você ainda não sabe o que algo é, ele fica aqui.
+
+---
+
+# 1. Projetos
+
+Esforços ativos com um resultado claro.
+
+Exemplos:
+
+- Finalizar o rascunho de um romance
+- Concluir um curso de programação
+- Lançar um site
+
+Se não existe linha de chegada, não é um projeto.
+
+Quando terminar → mover para Arquivo.
+
+Projetos produzem resultados.
+
+---
+
+# 2. Áreas
+
+Responsabilidades contínuas, sem data final.
+
+Exemplos:
+
+- Programação
+- Escrita
+- Saúde
+- Finanças
+
+Áreas não são pastas de armazenamento.  
+São painéis de controle.
+
+Podem conter:
+
+- Padrões
+- Checklists
+- Links para projetos ativos
+- Links para hubs de conhecimento
+
+Áreas mantêm qualidade ao longo do tempo.
+
+---
+
+# 3. Recursos
+
+Conhecimento reutilizável e material de referência.
+
+É aqui que vivem as notas do Zettelkasten.
+
+Se algo é:
+
+- Reutilizável
+- Não está preso a um único projeto
+- Escrito com suas próprias palavras
+- Atômico
+- Conectável
+
+Então pertence aqui.
+
+Estrutura exemplo:
+
+```
+3. Resources/
+├── Programming/
+├── Writing/
+└── Finance/
+```
+
+Recursos são ativos.
+
+---
+
+# 4. Arquivo
+
+Histórico concluído.
+
+Projetos finalizados.  
+Cursos antigos.  
+Material inativo.
+
+Você mantém o registro.  
+Remove o ruído.
+
+---
+
+# MOCs (Mapas de Conteúdo)
+
+Os MOCs vivem dentro de Recursos.
+
+São camadas de navegação.
+
+Respondem:
+
+> O que eu sei sobre este tema?
+
+Eles não armazenam conhecimento.  
+Eles conectam conhecimento.
+
+Uma nota pode aparecer em vários MOCs. Isso é esperado.
+
+---
+
+# Zettelkasten Dentro Deste Sistema
+
+## Fluxo de Curso (Usando PARA + Zettelkasten)
+
+Um curso é um Projeto.  
+O conhecimento extraído dele pertence aos Recursos.
 
 ```mermaid
 flowchart TD
-    A[Inbox] --> B{O que é isso?}
-    B -->|Ação com fim| C[Projects]
-    B -->|Responsabilidade contínua| D[Areas]
-    B -->|Material de referência| E[Resources]
-    B -->|Ideia processada| F[Zettelkasten]
+
+A[Iniciar Curso] --> B[Criar Pasta do Projeto<br>1. Projects/Nome do Curso]
+
+B --> C[Tomar Notas Brutas Dentro do Projeto]
+C --> D[Extrair Notas Atômicas]
+
+D --> E{Reutilizável?}
+
+E -- Sim --> F[Mover para 3. Resources/Tópico/]
+E -- Não --> G[Manter dentro do Projeto]
+
+F --> H[Linkar em MOCs]
+H --> I[Conhecimento se Torna Permanente]
+
+I --> J[Finalizar Curso]
+G --> J
+
+J --> K[Mover Projeto para Archive]
 ```
 
+### Fluxo Prático
+
+1. Faça anotações bagunçadas dentro do Projeto.
+2. Quando uma ideia ficar clara, reescreva como nota atômica.
+3. Mova para Recursos.
+4. Conecte em um MOC.
+5. Quando o curso terminar, arquive o Projeto.
+
+Um curso é temporário.  
+Conhecimento é permanente.
+
 ---
 
-### Regra da Inbox (Muito Importante)
+# Painel Operacional (Opcional)
 
-> **Se você ainda não decidiu, fica na Inbox.**
+Você pode incluir um arquivo na raiz como:
 
-A Inbox é sem atrito por definição.
-
----
-
-## 6. Áreas vs MOCs (Distinção Crítica)
-
-### Área = Responsabilidade
-
-Pergunta:
-
-> “O que eu preciso manter na minha vida?”
-
-Exemplo: `2. Areas/Programming.md`
-
-```markdown
-# Área: Programação
-
-## Responsabilidades
-- Desenvolvimento profissional
-- Aprendizado contínuo
-- Qualidade de código
-
-## Projetos Ativos
-- [[Projeto X]]
-
-## Cursos & Estudos
-- [[MOC: Curso xpto]]
-
-## Conhecimento
-- [[MOC: Programação]]
+```
+My Tasks.md
 ```
 
----
+Ele não armazena tarefas.  
+Ele agrega tarefas dinamicamente (por exemplo, usando Dataview).
 
-### MOC = Mapa de Conhecimento
+As tarefas vivem dentro de Projetos e Áreas.
 
-Pergunta:
-
-> “O que eu sei sobre este tema?”
-
-Exemplo: `MOCs/Git.md`
-
-```markdown
-# MOC: Git
-
-- [[Git como Sistema de Histórico]]
-- [[Commits Semânticos]]
-- [[Estratégias de Branching]]
-```
+O painel reduz fricção durante a execução.
 
 ---
 
-## 7. Cursos (Como Eles se Encaixam)
+# Regras de Manutenção
 
-Cursos são **andaimes temporários**, não estrutura permanente.
+- Projetos finalizados → Arquivo
+- Cursos antigos → Arquivo
+- Áreas podem evoluir, mas raramente mudam de lugar
+- Recursos crescem de forma deliberada
+- MOCs evoluem quando necessário
 
-### Estrutura recomendada
+Não organize demais no início.
 
-* Conteúdo do curso → `Resources`
-* Ideias processadas → `Zettelkasten`
-* Estrutura do curso → `MOC: Nome do Curso`
-* A Área referencia o MOC do curso
-
-### Visual
-
-```mermaid
-flowchart LR
-    Course[Conteúdo do Curso] --> Resources
-    Resources --> Zettelkasten
-    Zettelkasten --> MOC_Topic[MOC: Tema]
-    Zettelkasten --> MOC_Course[MOC: Curso]
-```
-
-Com o tempo, **os MOCs por tema se tornam mais importantes do que os MOCs de curso**.
+Deixe a estrutura emergir com o uso.
 
 ---
 
-## 8. Critérios: Resources → Zettelkasten
+# Princípio Final
 
-Transforme um recurso em notas Zettelkasten quando:
+Projetos produzem resultados.  
+Áreas mantêm padrões.  
+Recursos constroem conhecimento.  
+Arquivo preserva histórico.
 
-1. Ele foi processado
-2. Está escrito com suas próprias palavras
-3. Contém apenas uma ideia
-4. Pode se conectar a outras ideias
-5. Não depende do contexto original
+Clareza escala.  
+Confusão se acumula.
 
----
-
-## 9. Exemplo: Vídeos e Web Clippings
-
-* Vídeos não processados → `Inbox`
-* Vídeos processados → `Resources/<Tema>`
-* Ideias extraídas → `Zettelkasten`
-* Navegação → MOCs
-
-**Resources podem ficar para sempre.
-O Zettelkasten é seletivo por natureza.**
-
----
-
-## 10. Regras de Manutenção
-
-* Projetos finalizados → Archive
-* Cursos antigos → Archive (os Resources ficam se ainda forem úteis)
-* Áreas raramente são arquivadas
-* MOCs evoluem continuamente
-
----
-
-## 11. Painel Operacional (My Tasks.md)
-
-Este vault inclui um painel global opcional de tarefas localizado na raiz:
-
-`My Tasks.md`
-
-Este arquivo **não faz parte do PARA, Zettelkasten ou MOCs**.
-
-Seu objetivo é funcionar como um **painel de execução diária**, agregando tarefas de todo o vault por meio de consultas Dataview.
-
-### Princípios importantes
-
-- As tarefas **vivem** nos Projetos, Áreas e notas
-    
-- Este arquivo **não deve armazenar tarefas manualmente**
-    
-- Ele apenas **exibe tarefas dinamicamente**
-    
-- Existe para reduzir fricção no planejamento diário
-    
-
-### Por que ele fica na raiz do vault
-
-Porque ele é **transversal ao sistema**:
-
-- Não pertence a um projeto específico
-    
-- Não é uma responsabilidade contínua (Área)
-    
-- Não é conhecimento (Zettelkasten)
-    
-- Não é material de referência (Recursos)
-    
-
-Ele é simplesmente um **centro de controle para ação**.
-
-O usuário pode modificar ou remover este arquivo caso utilize outro sistema de gerenciamento de tarefas.
-
----
-
-## Princípio Final
-
-> **Projetos terminam.
-> Áreas permanecem.
-> Recursos informam.
-> Zettelkasten pensa.
-> MOCs conectam.**
-
-Se cada parte fizer apenas o seu papel, o sistema permanece limpo por anos.
-
----
-
-Boas reflexões.
+Este sistema foi construído para clareza.

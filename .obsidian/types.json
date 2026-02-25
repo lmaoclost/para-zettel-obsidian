@@ -27,6 +27,8 @@
     "Relevance": "text",
     "date": "date",
     "Characters": "multitext",
-    "Locations": "multitext"
+    "Locations": "multitext",
+    "excalidraw-export-internal-links": "checkbox",
+    "excalidraw-embed-md": "checkbox"
   }
 }
